@@ -6,5 +6,12 @@ st.header("🐡 Website Developing using Python 🐡")
 st.subheader("🐡 Teerapat Buapradit 🐡")
 st.image('cat.jpg')
 
+st.subheader('Data IRIS Flower 🌺')
 dt=pd.read_csv('./data/iris.csv')
 st.write(dt.head(10))
+
+st.sunheader('Statistics IRIS Flower 🌵')
+st.write('Summery')
+st.write('X Bar')
+st.write('Max')
+st.write('Min')
