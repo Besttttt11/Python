@@ -12,7 +12,7 @@ st.write(dt.head(10))
 
 st.subheader('Statistics IRIS Flower 🌵')
 st.write('Summery')
-cl1,cl2,cl3,cl4=st columns(4)
+cl1,cl2,cl3,cl4=st.columns(4)
 cl1.write(dt['sepal.lenght'].sum())
 cl2.write(dt['sepal.width'].sum())
 cl3.write(dt['petal.leagth'].sum())
